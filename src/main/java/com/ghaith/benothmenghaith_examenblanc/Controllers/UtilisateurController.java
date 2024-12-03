@@ -36,7 +36,7 @@ public class UtilisateurController {
 
     @PutMapping("/affecterProgToUsr/{prNom}/{usrNom}")
     public void affecterProgrammeAUtilisateur(@PathVariable("prNom")  String prNom,@PathVariable("usrNom")  String usrNom){
-        utilisateurServiceImp.affecterProgrammeDeUtilisateur(prNom,usrNom);
+        utilisateurServiceImp.affecterProgrammeAUtilisateur(prNom,usrNom);
     }
 
 
