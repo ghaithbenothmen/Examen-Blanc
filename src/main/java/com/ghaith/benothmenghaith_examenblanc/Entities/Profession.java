@@ -1,4 +1,4 @@
-package com.example.foyerprojectspring.Entities;
+package com.ghaith.benothmenghaith_examenblanc.Entities;
 
 public enum Profession {
     ETUDIANT,

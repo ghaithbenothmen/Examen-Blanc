@@ -1,10 +1,7 @@
-package com.example.foyerprojectspring.Entities;
+package com.ghaith.benothmenghaith_examenblanc.Entities;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,5 +18,9 @@ public class Chaine {
     private Long chId;
 
     private String chNom;
+
+    @Enumerated(EnumType.STRING)
     private Thematique chTheme;
+
+
 }
